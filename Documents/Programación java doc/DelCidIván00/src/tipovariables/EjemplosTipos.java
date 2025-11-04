@@ -1,0 +1,32 @@
+
+package tipovariables;
+
+public class EjemplosTipos {
+
+	public static void main(String[] args) {
+		int numAlumnos; // Declaramos la variable numAlumnos
+		numAlumnos = 0;
+		System.out.println("Valor de la variable: " + numAlumnos);
+		
+		numAlumnos = 12;
+		System.out.println("Valor de la variable: " + numAlumnos);
+           
+		double alturaAlumno = 1.75;
+		System.out.println("Valor de la variable: " + alturaAlumno + " cms.");
+		
+		char letraDni;
+		letraDni = 'a';
+		System.out.println("Valor de la variable: " + letraDni);
+		
+		String nombreAlumno = "Iván";
+		System.out.println("Valor de la variable: " + nombreAlumno);
+		
+		final int NUM_MAX_ALUMNOS = 25; //Declaramos una constante
+		System.out.println("Valor de la constante: " + NUM_MAX_ALUMNOS);
+		
+		final String GRUPO = "daw1";
+		System.out.println("Valor de la constante: " + GRUPO );
+		
+	}
+
+}
